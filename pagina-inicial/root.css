@@ -1,0 +1,10 @@
+@import url('./styles.css');
+@import url('./login.css');
+@import url('./cadastrar.css');
+
+:root{
+    --cor-fundo:#a10f18;
+    --fonte-primaria: 'Josefin Sans', sans-serif;
+    --cor-titulo: #000;
+    --branco: #ffffff;
+}

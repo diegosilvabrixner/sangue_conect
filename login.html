@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./pagina-inicial/login.css">
+    <link rel="stylesheet" href="./pagina-inicial/root.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./pagina-inicial/styles.css">
+</head>
+<body>
+    <div class="title ">
+        <span class="title-sangue">Sangue</span>
+        <svg viewBox="0 0 500 60" class="title-connect-svg">
+          <path id="curve" d="M50 60 C150 20, 350 20, 450 60" fill="transparent" />
+          <text>
+            <textPath href="#curve" startOffset="50%" text-anchor="middle">
+              Connect
+            </textPath>
+          </text>
+        </svg>
+      </div>
+      <section class="formulario">
+        <form class="formulario-login">
+            <fieldset class="formulario__campo">
+                <label class="campo__etiqueta" for="rg">CPF :</label>
+                <input name="Cpf" id="Cpf" class="campo__escrita " required type="text" minlength="11" placeholder="Digite seu CPF"/>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+            <fieldset class="formulario__campo">
+                <label class="campo__etiqueta" for="senha">SENHA :</label>
+                <input name="senha" id="senha" class="campo__escrita" required type="text" minlength="8" placeholder="Digite sua senha"/>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+        </form>
+        </section>
+        <div class="botao">
+          <a href="index.html" class="container-botao botao-voltar">Volta</a>
+          <a href="paginadeentrar" class="container-botao botao-entrar">Entrar</a>
+        </div>
+        <div class="botao-senha">
+          <a href="esqueciminhasenha" class="botao-esqueci-senha">Esqueci minha senha</a>
+        </div>
+      
+</body>
+</html>
